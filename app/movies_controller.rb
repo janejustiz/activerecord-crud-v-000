@@ -51,7 +51,7 @@ def can_find_by_multiple_attributes
 end
 
 def can_find_using_where_clause_and_be_sorted
-  SELECT * WHERE release_date >2000 SORT BY release_date DESC
+
   # For this test return all movies released after 2002 and ordered by
   # release date descending
   __
