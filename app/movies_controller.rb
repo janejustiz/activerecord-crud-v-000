@@ -25,17 +25,17 @@ end
 
 def can_be_created_in_a_block(:title => "Home Alone", :release_date => 1990)
 
-  Movie.create do |m|
-    movie.keys = m
+  Movie.create do |m| #come back to this one
+
   end
 end
 
 def can_get_the_first_item_in_the_database
-  self.first
+  Movie.first
 end
 
 def can_get_the_last_item_in_the_database
-  self.last
+  Movie.last
 end
 
 def can_get_size_of_the_database
